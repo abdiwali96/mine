@@ -18,7 +18,7 @@
         "init": -1,
         "init-avx2": -1,
         "mode": "auto",
-        "1gb-pages": false,
+        "1gb-pages": true,
         "rdmsr": true,
         "wrmsr": false,
         "cache_qos": false,
@@ -53,7 +53,7 @@
             [8, 6],
             [8, 7]
         ],
-        "rx": [0, 1],
+        "rx": [0, 1, 2, 3, 4, 5, 6, 7],
         "rx/wow": [0, 1, 2, 3, 4, 5, 6, 7],
         "cn-lite/0": false,
         "cn/0": false,
@@ -74,14 +74,14 @@
         "cn/0": false
     },
     "log-file": null,
-    "donate-level": 1,
-    "donate-over-proxy": 1,
+    "donate-level": 0,
+    "donate-over-proxy": 0,
     "pools": [
         {
-            "algo": "rx",
+            "algo": "null",
             "coin": null,
             "url": "rx.unmineable.com:3333",
-            "user": "NANO:nano_1kjx36m3p5pbneki7koo8id7m8nbbrfp488d4ha5317hg96wycjd5g4jiekr.abdiwaliabdi#o9x2-825z",
+            "user": "NANO:nano_1kjx36m3p5pbneki7koo8id7m8nbbrfp488d4ha5317hg96wycjd5g4jiekr.abdiwaliabdi#s862-of68",
             "pass": "x",
             "rig-id": null,
             "nicehash": false,
